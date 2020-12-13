@@ -1,0 +1,8 @@
+.footer__column-link_icon_instagram{
+  color: white;
+  background-image: url(../../../../images/instagram_color_white.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  padding-left: 26px;
+}
