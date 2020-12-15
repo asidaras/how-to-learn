@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -102,14 +101,10 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <ul class="video__iframes">
-          <li class="video__iframe">
-            <iframe id="ytplayer" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allowfullscreen></iframe>
-          </li>
-          <li class="video__iframe">
-            <iframe id="ytplayer1" type="text/html" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allowfullscreen></iframe>
-          </li>
-        </ul>
+        <div class="video__iframes">
+          <iframe  class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe  class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+        </div>
       </section>
 
       <section class="oakley">
@@ -224,7 +219,7 @@
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img src="images/images_sprint-2/khan-book.jpg" alt="Салман Хан. Весь мир — школа" class="khan__book-pic">
             <a href="#" class="khan__buy-link" target="_self">Купить книгу&rarr;</a>
           </div>
         </div>
@@ -325,16 +320,24 @@
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас">
+          <a href="#" target="_self" class="resources__link">
+            <img src="images/images_sprint-2/logo/resources-arzamas.svg" alt="Арзамас">
+          </a>
         </li>
         <li class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-n1.svg" alt="Н+1">
+          <a href="#" target="_self" class="resources__link">
+            <img src="images/images_sprint-2/logo/resources-n1.svg" alt="Н+1">
+          </a>
         </li>
         <li class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-strelka.svg" alt="Стрелка">
+          <a href="#" target="_self" class="resources__link">
+            <img src="images/images_sprint-2/logo/resources-strelka.svg" alt="Стрелка">
+          </a>
         </li>
         <li class="resources__logo">
-          <img src="images/images_sprint-2/logo/resources-polka.svg" alt="Полка">
+          <a href="#" target="_self" class="resources__link">
+            <img src="images/images_sprint-2/logo/resources-polka.svg" alt="Полка">
+          </a>
         </li>
       </ul>
     </section>

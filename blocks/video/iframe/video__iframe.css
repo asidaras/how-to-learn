@@ -2,7 +2,7 @@
   width: 515px;
   height: 316px;
   margin-right: 20px;
-  list-style-type: none;
+  border-width: 0;
 }
 .video__iframe:last-child{
   margin-right: 0;
