@@ -1,0 +1,14 @@
+.resources__img{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  transition: opacity 0.3s linear;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+}
+.resources__link .resources__img:hover{
+    opacity: 0.4;
+}

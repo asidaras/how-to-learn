@@ -1,0 +1,8 @@
+.footer__column-link_icon_facebook{
+  color: white;
+  background-image: url(../../../../images/facebook_color_white.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  padding-left: 26px;
+}
